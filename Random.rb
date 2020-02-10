@@ -11,6 +11,8 @@ class Function
     end
 
     def result
+        randomNum = rand(apprentices.size)
+        puts "#{apprentices[randomNum]} fera vendredi jusqu'à 17h"
     end
 end
 
